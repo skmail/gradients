@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+}
+.footer a{
+    cursor: pointer;
+    color: #868d96;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer a:hover{
+    transform: scale(1.2);
+}

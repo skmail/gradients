@@ -1,0 +1,126 @@
+.color-card{
+    width:165px;
+    box-shadow:0 2px 5px 1px #e0e0e0;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.color-card--button{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgba(255,255,255,0.5);
+    font-size: 11px;
+    /*opacity: 0;*/
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    border:none;
+}
+.copy-to-css{
+    right: 10px;
+    top: 10px;
+}
+.colors-edit{
+    left: 10px;
+    top: 10px;
+}
+.color-card--button:focus,
+.color-card--button:active{
+    outline: 0;
+}
+.color-card:hover .color-card--button{
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+.gradient-box{
+    height:120px;
+    background: #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.color-card--content{
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+.gradient-slider{
+    height: 3px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.gradient-slider--handle{
+    border-radius: 50%;
+    width:12px;
+    height: 12px;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: -6px;
+    top:50%;
+    transition: box-shadow 0.2s ease;
+}
+
+.gradient-slider--handle:hover{
+    box-shadow: 0 0 0 2px #fff, 0 0 3px 2px #d4d4d4;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+.color-names{
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.color-names > *{
+    position: relative;
+    flex:1;
+}
+.color-names > :hover{
+    cursor: pointer;
+}
+.color-names > :last-child{
+    /*text-align: right;*/
+    flex:0;
+}
+
+.color-input-picker{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+}
+
+.editable{
+    position: relative;
+}
+.editable:after{
+    content: "";
+    position: absolute;
+    border-bottom: 1px dashed #d4d3d3;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+.color-label--color-dot{
+    width: 5px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 3px;
+    left:-8px;
+    top:6px
+}

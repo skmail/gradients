@@ -1,0 +1,9 @@
+.color-card--degrees{
+    position: absolute;
+    left:50%;
+    margin-left: -12px;
+    top:55px;
+    width:25px;
+    height: 25px;
+}
+

@@ -1,0 +1,37 @@
+.App{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(165px, auto);
+    width: 800px;
+    margin: 50px auto;
+    grid-auto-flow: dense;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 1200px) {
+    .App{
+        grid-template-columns: repeat(6, 1fr);
+        width: 1000px;
+    }
+    .group--title{
+        width: 1000px;
+    }
+}
+@media (max-width: 800px) {
+    .App {
+        grid-template-columns: repeat(3, 1fr);
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .App {
+        grid-template-columns: repeat(2, 1fr);
+        width: 300px;
+    }
+}

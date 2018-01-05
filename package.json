@@ -1,0 +1,21 @@
+{
+  "name": "gradient",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "4.7.0",
+    "react": "16.2.0",
+    "react-color": "2.13.8",
+    "react-copy-to-clipboard": "5.0.1",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
