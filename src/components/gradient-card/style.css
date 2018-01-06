@@ -17,7 +17,7 @@
     border-radius: 50%;
     color: rgba(255,255,255,0.5);
     font-size: 11px;
-    /*opacity: 0;*/
+    opacity: 0;
     transition: opacity 0.3s ease;
     cursor: pointer;
     border:none;
